@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="edyta.js" defer></script>
+</head>
+
+<body>
+    <!-- makes the dite faster, me mujt me ndodh shume sende ne te njejten kohe -->
+    <!-- multitask -->
+    <h2>Image Upload</h2>
+    <form id="uploadForm">
+        <!-- accept -  tregon qe e pranon vetem ate (image) -->
+        <input type="file" id="imageInput" accept="image/*" required>
+        <button type="button" onclick="checkImagesSize()">Upload Image</button>
+    </form>
+    <p id="message"></p>
+    <p>Can not get images larger than 5MB</p>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
